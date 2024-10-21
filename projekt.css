@@ -324,9 +324,10 @@ a.request {
 .ratings-column-title {
    font-size: 45px; 
    text-align: center;
+   border-right: 1px solid #e5e5e5;
 }
 .rating-column-line {
-    border-right: 1px solid #e5e5e5;
+    border: 0;
 }
 
 .ending-line {
