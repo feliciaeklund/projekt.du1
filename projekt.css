@@ -28,6 +28,13 @@ h1,h2,h3,h4 {
     font-weight: 650;
     line-height: 1.2;
 }
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 26px;
+    margin-bottom: 8px;
+}
 img {
     max-width: 100%;
 }
@@ -57,7 +64,7 @@ main {
     padding: 4px;
 }
 
-.barky-button-end {
+.barky-button-end a {
     background-color: black;
     color: white;
     width: 125px;
@@ -71,18 +78,9 @@ main {
     padding-right:5px;
     margin-top: 20px;
     margin-bottom: 60px;
+    text-decoration: none;
 }
-.barky-button {
-    background-color: black;
-    color: white;
-    width: 125px;
-    border-radius: 3px;
-    text-align: center;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    padding-right:5px;     
-}
+
 .barky-button a {
     background-color: black;
     color: white;
@@ -94,8 +92,8 @@ main {
     padding-right: 10px;
     font-size: 14px;
 }
-.barky-button-introduction {
-    background-color: black;
+.barky-button-introduction a {
+   background-color: black;
     color: white;
     width: 130px;
     border-radius: 3px;
@@ -104,7 +102,10 @@ main {
     padding-left: 8px;
     padding-bottom: 8px;
     padding-right:8px; 
-    margin-top: 20px
+    margin-top: 20px;
+    text-decoration: none;
+    display: block;
+        
 }
 .nav-right {
     display: flex;
@@ -167,10 +168,9 @@ a.request {
   gap: 64px;
 }
 .first-title {
-    width:300px;
-    margin-bottom: 16px; 
+    margin-bottom: 16px;
     font-size: 24px;
-    line-height: 1.1;      
+    line-height: 1.1;
 }
 
 .first-photo {
@@ -317,17 +317,24 @@ a.request {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 80px;
-    padding-top: 50px; 
+    font-size: 45px;
+    margin: 48px 0 0;
 }
 
-.ratings-column-title {
-   font-size: 45px; 
-   text-align: center;
-   border-right: 1px solid #e5e5e5;
+.rating-column {
+    border-right: 1px solid #e5e5e5;
+    padding: 0 2rem;
+    font-size: 18px;
+    text-align: center;
 }
-.rating-column-line {
-    border: 0;
+
+.rating-column.last {
+    border-right-width: 0;
+}
+
+.ratings-column-wrapper h2 {
+    font-size: 56px;
+    color: #7f7f7f;
 }
 
 .ending-line {
