@@ -164,8 +164,7 @@ main {
     width:300px;
     margin-bottom: 16px; 
     font-size: 24px;
-    line-height: 1.1;
-        
+    line-height: 1.1;      
 }
 
 .first-photo {
@@ -185,12 +184,11 @@ main {
 .citat {
     text-align: center;
     color: #999999;
-    margin-bottom: 26px;
     align-content: center;
     margin: auto;
-    width: 70%;
     padding: 10px;
-    font-size: 26px
+    font-size: 36px;
+    font-weight: 550;
 }
 .citat-text {
     margin-bottom: 40px;
@@ -210,44 +208,48 @@ main {
 .citat-namn {
     color: black
 }
+
 .title-plan {
     margin-bottom: 10px;
     margin-top: 100px;
         
 }
+
 .text-plan {
     text-align: center;
     align-content: center;
     margin: auto;
     width: 57%;
-    padding: ;
 }
+
 .free-plan {
-    border-top: solid;
-    border-bottom: solid;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
     text-align: center;   
-   
 }
+
 .plan-list-item {
   display: flex;
   align-items: center;
   justify-content: space-between;  
-  border-bottom: solid; 
-  margin: 26px;
-  padding-bottom: 25px;      
+  border-bottom: 1px solid #e5e5e5;
+  margin: 12px;
+  padding-bottom: 12px;     
 }
+
 .plan-list-item img{
     height: 18px
 }
 .list-wrapper {
   background-color: #f4f4f4;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-top: 10px;
-  justify-content: center;
-  
-
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  max-width: 580px;
+  border-radius: 4px;
+  margin-bottom: 90px;
 }
+
 .team-introduction {
     text-align: center;
     padding-top: 70px;
