@@ -53,6 +53,8 @@ main {
   height: 70px;
   margin-left: 16px;
   margin-right: 16px;
+  position: fixed;
+  background-color: white;
 }
 
 .navigation-wrapper a {
