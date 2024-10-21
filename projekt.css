@@ -345,24 +345,47 @@ a.request {
     padding-bottom: 10px;    
 }
 .footer-wrapper {
-   display: flex; 
-   border-top: solid;
-   width: 100%   
+   /* display: flex; */
+   width: 100%;
 } 
-.barky-information {
-    padding-left: 50px;
-    padding-right: 50px;
-        
-}
+
+.barky-information {max-width: 320px;font-size: 14px;}
 .footer-icons {
-    max-width: 25%;
+    width: 21px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 14px;
+    margin: 16px 0 32px;
 }
 
 .footer-barky {
-    max-width: 100px;
-    margin-right: 
+    width: 130px;
 }
+
 .footer-column a {
     text-decoration: none;
     display: block;
+    color: #7f7f7f;
+    padding: 5px 0;
+}
+
+.footer-content {
+    margin: 0 16px;
+    border-top: 1px solid #e5e5e5;
+    display: flex;
+    padding: 64px 0;
+    justify-content: center;
+    gap: 3rem;
+}
+.footer-columns {
+    display: flex;
+    gap: 5rem;
+}
+
+.footer-columns p {
+    margin-bottom: 5px;
+    font-weight: 550;
+    color: #666;
 }
