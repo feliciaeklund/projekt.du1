@@ -1,0 +1,312 @@
+@font-face {
+    font-family: "Inter.ttf";
+    src: url(material/Inter.ttf); 
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+    font-family: "Inter.ttf";
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: 
+        
+}
+header {
+    display: flex;
+    width: 100%;
+    padding-top: ;
+}
+p {
+    color: #7f7f7f;
+}
+main {
+    width: 1000px;
+    margin-top: 50px;   
+}
+.barky-logo {
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+        
+}
+.navigation-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: solid; 
+        
+    height: 70px;
+}
+.barky-button-end {
+    background-color: black;
+    color: white;
+    width: 125px;
+    display: block;
+    margin: auto;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right:5px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.barky-button {
+    background-color: black;
+    color: white;
+    width: 125px;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right:5px;     
+}
+.barky-button-introduction {
+    background-color: black;
+    color: white;
+    width: 130px;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-bottom: 8px;
+    padding-right:8px; 
+    margin-top: 20px
+}
+.navigation-right {
+    display: flex;
+    align-items: center;
+    gap:5px;
+        
+       
+}
+.navigation-right a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.navigation-right img {
+    width: 12px;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.navigation-left a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.navigation-left img {
+    width: 12px;
+}
+.navigation-left {
+    display: flex;
+    gap: 10px;
+}
+.icons {
+    border-bottom: solid;
+    border-top: solid;
+    width: 1000px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 30px 0;
+}
+img {
+    height: 100px;
+}
+.icons-img {
+    height: 45px;
+    padding: 10px
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+.introduction {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+.first-title {
+    width:300px;
+    margin-bottom: 16px; 
+    font-size: 45px
+}
+
+.introduction img {
+    height: 250px;
+        
+}
+.presentation-bild
+{
+    height: 620px;
+    box-shadow: rgba (0, 0, 0, 0,1);
+    margin-bottom: 46px;
+}
+.citat-rubrik {
+    margin-top: 95px;
+    margin-bottom: 16px;
+    font-size: 36px;
+}
+.citat {
+    text-align: center;
+    color: #999999;
+    margin-bottom: 26px;
+    align-content: center;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    font-size: 26px
+}
+.citat-text {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 50%
+}
+.citat-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 380px;    
+}
+.citat-bild {
+    height: 40px;
+    padding-right: 10px;
+        
+}
+.citat-namn {
+    color: black
+}
+.title-plan {
+    margin-bottom: 10px;
+    margin-top: 100px;
+        
+}
+.text-plan {
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    width: 57%;
+    padding: ;
+}
+.free-plan {
+    border-top: solid;
+    border-bottom: solid;
+    text-align: center;   
+   
+}
+.plan-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  border-bottom: solid; 
+  margin: 26px;
+  padding-bottom: 25px;      
+}
+.plan-list-item img{
+    height: 18px
+}
+.list-wrapper {
+  background-color: #f4f4f4;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 10px;
+  justify-content: center;
+  
+
+}
+.team-introduction {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px
+}
+.team-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding-bottom: 100px;
+}
+.team-column {
+    text-align: center;
+    
+        
+}
+.team-column-product {
+    border-right: solid;
+    border-left: solid;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px
+}
+.team-link {
+    color: black;
+}
+.ratings-title {
+    text-align: center;
+    padding-bottom: 40px;
+        
+}
+.ratings-introduction-wrapper {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+.rating-introduction-title {
+    padding-bottom: 10px;
+}
+.ratings-introduction {
+    align-items: center;
+  justify-content: center;
+    gap: 50px;
+    width: 50%
+        
+}
+.ratings-column-wrapper {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    gap: 50px;
+    font-size: 45px;
+   
+}
+.badges-pic {
+    height: 150px
+}
+.ending-line {
+    text-align: center;
+}
+.ending-title {
+    padding-top: 100px;
+    padding-bottom: 10px;
+        
+}
+.footer-wrapper {
+   display: flex; 
+   border-top: solid;
+   width: 100%
+   
+} 
+.barky-information {
+    padding-left: 50px;
+    padding-right: 50px;
+        
+}
+.footer-icons {
+    width:15px
+}
+.footer-barky {
+    width: 130px;
+    margin-right: 
+}
+.footer-column a {
+    text-decoration: none;
+    display: block;
+}
