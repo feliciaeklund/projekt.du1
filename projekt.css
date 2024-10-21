@@ -286,46 +286,46 @@ main {
     padding-bottom: 40px;
         
 }
+
 .ratings-introduction-wrapper {
-    display: flex;
-  align-items: center;
-  justify-content: center;
-    
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
 }
+
 .rating-introduction-title {
     padding-bottom: 10px;
 }
+
 .ratings-introduction {
-    align-items: center;
-  justify-content: center;
-    gap: 50px;
-    width: 50%
-        
+  width: 50%   
 }
+.ratings-picture {
+    max-width: 50%;
+}
+.ratings-introduction-wrapper a {
+    color: black;
+}
+    
 .ratings-column-wrapper {
     display: flex;
     align-items: center;
   justify-content: center;
     gap: 50px;
-    font-size: 45px;
-   
+    font-size: 45px; 
 }
-.badges-pic {
-    height: 150px
-}
+
 .ending-line {
     text-align: center;
 }
 .ending-title {
     padding-top: 100px;
-    padding-bottom: 10px;
-        
+    padding-bottom: 10px;    
 }
 .footer-wrapper {
    display: flex; 
    border-top: solid;
-   width: 100%
-   
+   width: 100%   
 } 
 .barky-information {
     padding-left: 50px;
@@ -333,10 +333,11 @@ main {
         
 }
 .footer-icons {
-    width:15px
+    max-width: 25%;
 }
+
 .footer-barky {
-    width: 130px;
+    max-width: 100px;
     margin-right: 
 }
 .footer-column a {
