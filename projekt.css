@@ -38,11 +38,18 @@ main {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border-bottom: 1px solid; 
+    border-bottom: 1px solid #e5e5e5; 
     margin-left: 16px;
     margin-right: 16px;
 }
-
+.navigation-wrapper a {
+    gap: 6px;
+    display: flex;
+    color:black;
+    padding: 4px;
+    text-decoration: none;
+    align-items: center;
+}
 .barky-button-end {
     background-color: black;
     color: white;
@@ -91,17 +98,7 @@ main {
     text-decoration: none;
     color: black;
 }
-.navigation-wrapper a {
-    gap: 6px;
-    display: flex;
-    color:black;
-    padding: 4px;
-    text-decoration: none;
-    align-items: center;
-    
-    
-        
-}
+
 .navigation-right img {
     width: 12px;
 }
