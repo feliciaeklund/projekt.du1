@@ -49,13 +49,14 @@ main {
 }
 
 .navigation-wrapper a {
-    gap: 6px;
-    display: flex;
-    color:black;
-    padding: 4px;
-    text-decoration: none;
+   display: flex;
     align-items: center;
+    text-decoration: none;
+    color: black;
+    gap: 6px;
+    padding: 4px;
 }
+
 .barky-button-end {
     background-color: black;
     color: white;
@@ -119,6 +120,11 @@ main {
     display: flex;
     text-decoration: none;
     color: black;
+}
+
+a.request {
+    border-right: 1px solid #e5e5e5;
+    padding-right: 10px;
 }
 
 .navigation-right img {
@@ -310,9 +316,17 @@ main {
 .ratings-column-wrapper {
     display: flex;
     align-items: center;
-  justify-content: center;
-    gap: 50px;
-    font-size: 45px; 
+    justify-content: center;
+    gap: 80px;
+    padding-top: 50px; 
+}
+
+.ratings-column-title {
+   font-size: 45px; 
+   text-align: center;
+}
+.rating-column-line {
+    border-right: 1px solid #e5e5e5;
 }
 
 .ending-line {
