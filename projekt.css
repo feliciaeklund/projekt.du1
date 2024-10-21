@@ -82,6 +82,17 @@ main {
     padding-bottom: 5px;
     padding-right:5px;     
 }
+.barky-button a {
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-size: 14px;
+}
 .barky-button-introduction {
     background-color: black;
     color: white;
