@@ -304,8 +304,12 @@ a.request {
 }
 
 .ratings-introduction {
-  width: 50%   
+    align-items: center;
+  justify-content: center;
+    gap: 50px;
+    width: 50%       
 }
+
 .ratings-picture {
     max-width: 50%;
 }
@@ -389,3 +393,107 @@ a.request {
     font-weight: 550;
     color: #666;
 }
+
+@media (max-width: 600px) {
+
+    body {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .navigation-left, .navigation-right, .barky-button {
+        display: none;
+    }
+
+    .introduction, .ratings-introduction-wrapper, .ratings-column-wrapper, .team-column-wrapper, .footer-columns {
+        flex-wrap: wrap;
+    }
+
+    main {
+        max-width: 100%;
+        margin: 0 16px;
+    }
+
+    .first-photo {
+        max-width: 100%;
+        order: 1;
+    }
+
+    .navigation-wrapper {
+        border-bottom-width: 0;
+    }
+
+    .first-text {
+        order: 2;
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .introduction {
+        gap: 0;
+        text-align: center;
+    }
+
+    .icons-img {
+        height: 28px;
+        padding: 5px 15px;
+    }
+
+    .first-text {
+        order: 2;
+    }
+
+    h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .introduction {
+        gap: 0;
+        text-align: center;
+    }
+
+    .icons-img {
+        height: 28px;
+        padding: 5px 15px;
+    }
+
+    .presentation-1 {
+        text-align: center;
+    }
+
+    h2.citat-rubrik {
+        margin-top: 48px;
+        font-size: 24px;
+    }
+
+    p.citat-text {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .citat {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .presentation-bild {
+        margin-bottom: 20px;
+    }
+
+    .citat-text {
+        text-align: left;
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .team-column-wrapper {
+        display: flex;
+    }
+
+}
+
