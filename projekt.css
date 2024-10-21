@@ -143,8 +143,8 @@ main {
     gap: 10px;
 }
 .icons {
-    border-bottom: solid;
-    border-top: solid;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
     width: 1000px;
     margin-top: 50px;
     text-align: center;
@@ -158,21 +158,23 @@ main {
   display: flex;
   align-items:center;
   justify-content: space-between;
+  gap: 64px;
 }
 .first-title {
     width:300px;
     margin-bottom: 16px; 
-    font-size: 45px
-}
-
-.introduction img {
-    height: 250px;
+    font-size: 24px;
+    line-height: 1.1;
         
 }
+
+.first-photo {
+    max-width: 50%       
+}
+
 .presentation-bild
 {
-    height: 620px;
-    box-shadow: rgba (0, 0, 0, 0,1);
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.1);
     margin-bottom: 46px;
 }
 .citat-rubrik {
