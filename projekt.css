@@ -19,9 +19,9 @@ body {
 }
 header {
     display: flex;
-    left: 16px;
+    left: 0;
     position: fixed;
-    right: 16px;
+    right: 0;
 }
 p {
     color: #7f7f7f;
@@ -41,7 +41,7 @@ img {
     max-width: 100%;
 }
 main {
-    width: 1000px;
+    max-width: 1000px;
     margin-top: 120px;   
 }
 .barky-logo {
@@ -64,7 +64,7 @@ main {
 }
 
 .navigation-wrapper a {
-   display: flex;
+    display: flex;
     align-items: center;
     text-decoration: none;
     color: black;
@@ -114,6 +114,8 @@ main {
     box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.1);
    
 }
+
+
 .barky-button-introduction a {
    background-color: black;
     color: white;
@@ -129,6 +131,7 @@ main {
     display: block; 
     box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.1);
 }
+
 .nav-right {
     display: flex;
     align-items: center;
@@ -174,14 +177,13 @@ a.request {
 .icons {
     border-bottom: 1px solid #e5e5e5;
     border-top: 1px solid #e5e5e5;
-    width: 1000px;
     margin-top: 50px;
     text-align: center;
     padding: 30px 0;
 }
 .icons-img {
     height: 45px;
-    padding: 10px
+    padding: 10px;
 }
 .introduction {
   display: flex;
@@ -221,7 +223,7 @@ a.request {
 .citat-text {
     margin-bottom: 40px;
     margin-top: 40px;
-    width: 50%
+    width: 50%;
 }
 .citat-wrapper {
     display: flex;
@@ -371,12 +373,12 @@ a.request {
     padding-bottom: 10px;    
 }
 .footer-wrapper {
-   /* display: flex; */
+   /*! display: flex; */
    width: 100%;
    max-width: 1200px;
 } 
 
-.barky-information {max-width: 320px;font-size: 14px;}
+.barky-information {max-width: 320px;font-size: 14px;padding-left: 20px;}
 .footer-icons {
     width: 21px;
 }
@@ -389,6 +391,11 @@ a.request {
 
 .footer-barky {
     width: 130px;
+}
+
+.footer-title {
+    color: black;
+    font-weight: 450;
 }
 
 .footer-column a {
@@ -425,6 +432,18 @@ a.request {
         font-size: 14px;
         display: block;
     }
+    
+    header {
+        position: static;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    
+    .barky-logo {
+        width: 80px;
+        align-items: left;
+    }
+    
     .hamburger {
         display: block;
         width: 16px;
@@ -436,22 +455,35 @@ a.request {
 
     .introduction, .ratings-introduction-wrapper, .ratings-column-wrapper, .team-column-wrapper, .footer-columns {
         flex-wrap: wrap;
+        display: block;
+    }
+    .introduction {
+        display: flex;
     }
 
     main {
         max-width: 100%;
         margin: 0 16px;
+        width: auto;
     }
 
     .first-photo {
         max-width: 100%;
         order: 1;
+        margin-top: 32px;
+        margin-right: 16px;
+        margin-left: 16px;
+        margin-bottom: 6px;
     }
 
     .navigation-wrapper {
         border-bottom-width: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: 35px;
+        margin-top: 6px;
     }
-
+   
     .first-text {
         order: 2;
         text-align: center;
@@ -467,11 +499,6 @@ a.request {
         text-align: center;
     }
 
-    .icons-img {
-        height: 28px;
-        padding: 5px 15px;
-    }
-
     .first-text {
         order: 2;
     }
@@ -484,6 +511,10 @@ a.request {
     .introduction {
         gap: 0;
         text-align: center;
+    }
+    
+    .barky-button-introduction a {
+      margin: 16px auto 0 auto;
     }
 
     .icons-img {
@@ -495,6 +526,9 @@ a.request {
         text-align: center;
     }
   
+     .presentation-3 {
+        margin-bottom: 70px;
+    }
 
     h2.citat-rubrik {
         margin-top: 48px;
@@ -504,13 +538,30 @@ a.request {
     p.citat-text {
         margin-bottom: 20px;
         margin-top: 20px;
+        text-align: center;
+        width: auto;
     }
 
     .citat {
         font-size: 16px;
         margin-bottom: 10px;
     }
-
+    
+    .citat-wrapper {
+        margin-left: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .citat-wrapper.last {
+        
+    }
+    .text-plan {
+        width: 100%;
+    }
+    
+   
+    
     .presentation-bild {
         margin-bottom: 20px;
     }
@@ -521,10 +572,47 @@ a.request {
         margin-top: 0;
         margin-bottom: 0;
     }
+    
+    .ratings-introduction {
+        width: auto;
+        text-align: left;
+    }
+    
+    .rating-introduction-title {
+        font-size: 18px;
+        padding-bottom: 3px;
+    }
+    
+    .ratings-picture {
+        max-width: 100%;
+    }
+    .rating-column {
+        border: none;
+        margin-bottom: 32px;
+    }
+    
+    .rating-column.last {
+        margin-bottom: 0;
+    }
 
     .team-column-wrapper {
         display: flex;
     }
+    
+    .team-column-product {
+        border: none;
+    }
 
+    .footer-content {
+        flex-wrap: wrap;
+        text-align: left;
+        
+    }
+   
+    .footer-column {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
 }
 
