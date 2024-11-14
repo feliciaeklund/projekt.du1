@@ -8,6 +8,7 @@
     padding: 0;
     font-family: "Inter.ttf";
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -17,33 +18,41 @@ body {
     font-weight: 400;
         
 }
+
 header {
     display: flex;
     left: 0;
     position: fixed;
     right: 0;
 }
+
 p {
     color: #7f7f7f;
 }
+
 h1,h2,h3,h4 {
     font-weight: 650;
     line-height: 1.2;
 }
+
 h2 {
     font-size: 36px;
 }
+
 h3 {
     font-size: 26px;
     margin-bottom: 8px;
 }
+
 img {
     max-width: 100%;
 }
+
 main {
     max-width: 1000px;
     margin-top: 120px;   
 }
+
 .barky-logo {
     width: 100px;       
 }
@@ -51,6 +60,7 @@ main {
 .hamburger {
     display: none;
 }
+
 .navigation-wrapper {
   display: flex;
   justify-content: space-between;
@@ -69,9 +79,9 @@ main {
     text-decoration: none;
     color: black;
     gap: 6px;
-    padding: 4px;
-    
+    padding: 4px;  
 }
+
 .navigation-wrapper a:hover {
     background-color: #f4f4f4;
     border-radius: 3px;
@@ -112,9 +122,7 @@ main {
     padding-right: 10px;
     font-size: 14px;
     box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.1);
-   
 }
-
 
 .barky-button-introduction a {
    background-color: black;
@@ -137,11 +145,13 @@ main {
     align-items: center;
     gap: 16px;
 }
+
 .navigation-right {
     display: flex;
     align-items: center;
     gap:5px;  
 }
+
 .navigation-right a {
     display: flex;
     text-decoration: none;
@@ -156,24 +166,29 @@ a.request {
 .navigation-right img {
     width: 12px;
 }
+
 .nav-left {
     display: flex;
     align-items: center;
     gap: 32px;
 }
+
 .navigation-left a {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: black;
 }
+
 .navigation-left img {
     width: 12px;
 }
+
 .navigation-left {
     display: flex;
     gap: 10px;
 }
+
 .icons {
     border-bottom: 1px solid #e5e5e5;
     border-top: 1px solid #e5e5e5;
@@ -181,16 +196,19 @@ a.request {
     text-align: center;
     padding: 30px 0;
 }
+
 .icons-img {
     height: 45px;
     padding: 10px;
 }
+
 .introduction {
   display: flex;
   align-items:center;
   justify-content: space-between;
   gap: 64px;
 }
+
 .first-title {
     margin-bottom: 16px;
     font-size: 24px;
@@ -198,19 +216,20 @@ a.request {
 }
 
 .first-photo {
-    max-width: 50%       
+    max-width: 50%;       
 }
 
-.presentation-bild
-{
+.presentation-bild{
     box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.2);
     margin-bottom: 46px;
 }
+
 .citat-rubrik {
     margin-top: 95px;
     margin-bottom: 16px;
     font-size: 36px;
 }
+
 .citat {
     text-align: center;
     color: #999999;
@@ -220,23 +239,26 @@ a.request {
     font-size: 36px;
     font-weight: 550;
 }
+
 .citat-text {
     margin-bottom: 40px;
     margin-top: 40px;
     width: 50%;
 }
+
 .citat-wrapper {
     display: flex;
     align-items: center;
     margin-left: 380px;    
 }
+
 .citat-bild {
     height: 40px;
-    padding-right: 10px;
-        
+    padding-right: 10px;      
 }
+
 .citat-namn {
-    color: black
+    color: black;
 }
 
 .title-plan {
@@ -267,9 +289,14 @@ a.request {
   padding-bottom: 12px;     
 }
 
-.plan-list-item img{
-    height: 18px
+#plan-list-item-last {
+    border: none;
 }
+
+.plan-list-item img{
+    height: 18px;
+}
+
 .list-wrapper {
   background-color: #f4f4f4;
   margin-left: auto;
@@ -331,12 +358,13 @@ a.request {
     align-items: center;
   justify-content: center;
     gap: 50px;
-    width: 50%       
+    width: 50%;       
 }
 
 .ratings-picture {
     max-width: 50%;
 }
+
 .ratings-introduction-wrapper a {
     color: black;
 }
@@ -368,17 +396,24 @@ a.request {
 .ending-line {
     text-align: center;
 }
+
 .ending-title {
     padding-top: 100px;
     padding-bottom: 10px;    
 }
+
 .footer-wrapper {
    /*! display: flex; */
    width: 100%;
    max-width: 1200px;
 } 
 
-.barky-information {max-width: 320px;font-size: 14px;padding-left: 20px;}
+.barky-information{
+    max-width: 320px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
 .footer-icons {
     width: 21px;
 }
@@ -414,6 +449,7 @@ a.request {
     gap: 3rem;
     max-width: 1200px;
 }
+
 .footer-columns {
     display: flex;
     gap: 5rem;
@@ -457,6 +493,7 @@ a.request {
         flex-wrap: wrap;
         display: block;
     }
+    
     .introduction {
         display: flex;
     }
@@ -556,12 +593,11 @@ a.request {
     .citat-wrapper.last {
         
     }
+    
     .text-plan {
         width: 100%;
     }
-    
-   
-    
+     
     .presentation-bild {
         margin-bottom: 20px;
     }
