@@ -47,6 +47,10 @@ main {
 .barky-logo {
     width: 100px;       
 }
+
+.hamburger {
+    display: none;
+}
 .navigation-wrapper {
   display: flex;
   justify-content: space-between;
@@ -406,6 +410,10 @@ a.request {
         text-align: center;
         font-size: 14px;
         display: block;
+    }
+    .hamburger {
+        display: block;
+        width: 16px;
     }
 
     .navigation-left, .navigation-right, .barky-button {
